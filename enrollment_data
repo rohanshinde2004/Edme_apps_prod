@@ -1,0 +1,3 @@
+select * from trans.policyenrollment
+inner join trans.policyenrollment_trans 
+on pe.clientid=ped.clientid 
